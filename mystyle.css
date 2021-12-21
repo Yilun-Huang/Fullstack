@@ -1,0 +1,44 @@
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  margin: 50px;
+}
+
+td, th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(235, 235, 235);
+}
+
+input {
+  border-radius: 30px;
+  border: 2px solid rgb(200, 200, 200);
+  margin: 50px;
+  padding: 20px;
+  width: 500px;
+  height: 15px;
+  font-size: 1.5em;
+}
+
+::placeholder {
+  color: rgb(190, 190, 190);
+}
+
+h2 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+ol, ul {
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+select{
+    margin: 50px;
+    width: 200px;
+    height: 30px;
+}
