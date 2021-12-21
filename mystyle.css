@@ -4,7 +4,8 @@ table {
   margin: 50px;
 }
 
-td, th {
+td,
+th {
   border: 1px solid rgb(190, 190, 190);
   padding: 10px 20px;
   text-align: center;
@@ -32,13 +33,15 @@ h2 {
   margin-top: 50px;
   margin-left: 50px;
 }
-ol, ul {
-    margin-bottom: 50px;
-    margin-left: 50px;
+
+ol,
+ul {
+  margin-bottom: 50px;
+  margin-left: 50px;
 }
 
-select{
-    margin: 50px;
-    width: 200px;
-    height: 30px;
+select {
+  margin: 50px;
+  width: 200px;
+  height: 30px;
 }
