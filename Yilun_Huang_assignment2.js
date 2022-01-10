@@ -6,9 +6,7 @@ const itemObject = [
 
 /*Q1*/
 let newItemObject = itemObject.map((item) => {
-  item.quantity *= 2;
-  item.price *= 2;
-  return item;
+  return { quantity: item.quantity * 2, price: item.price * 2 };
 });
 console.log(newItemObject);
 
