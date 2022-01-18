@@ -1,0 +1,28 @@
+h1 {
+  padding: 10px 20px;
+  text-align: center;
+}
+#inputdiv {
+  padding: 10px 20px;
+  text-align: center;
+}
+#todoItemDiv {
+  padding: 10px 20px;
+  text-align: center;
+}
+#todoList {
+  display: inline-block;
+}
+span {
+  padding-right: 10px;
+  cursor: pointer;
+}
+li {
+  padding-bottom: 5px;
+}
+.todoItemDeleted {
+  text-decoration: line-through;
+}
+.todoItemUndeleted {
+  text-decoration: none;
+}

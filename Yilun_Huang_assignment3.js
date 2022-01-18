@@ -27,7 +27,7 @@ const tableInfo = [
   },
 ];
 // Why can't use getelementbyid here?
-const infoDiv = document.querySelector("#info");
+const infoDiv = document.getElementById("info"); // getElementById("id")
 const createTable = () => {
   let infoTable = document.createElement("table");
   infoTable.className = "tableClass";
@@ -87,6 +87,7 @@ list.forEach((item) => {
   listItem.textContent = item;
   orderedList.append(listItem);
 });
+
 let unorderedListHead = document.createElement("h2");
 unorderedListHead.className = "listHead";
 unorderedListHead.textContent = "An unordered technologies list";
@@ -112,11 +113,11 @@ const dropDownList = [
 const dropdownDiv = document.querySelector("#dropdown");
 const selector = document.createElement("select");
 selector.className = "selector";
-dropDownList.forEach((item) => {
+dropDownList.forEach(({ value, content }) => {
   let dropdownOption = document.createElement("option");
   dropdownOption.className = "option";
-  dropdownOption.value = item.value;
-  dropdownOption.textContent = item.content;
+  dropdownOption.value = value;
+  dropdownOption.textContent = content;
   selector.append(dropdownOption);
 });
 dropdownDiv.append(selector);
